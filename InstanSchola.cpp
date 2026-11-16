@@ -150,8 +150,8 @@ int main() {
                             if (strlen(newName) > 0) {
                                 StudentRecord rec{};
                                 rec.id = (int)students.size() + 1;
-                                strncpy_s(rec.regNo, newReg, sizeof(rec.regNo) - 1);
-                                strncpy_s(rec.fullName, newName, sizeof(rec.fullName) - 1);
+                                snprintf(rec.regNo, sizeof(rec.regNo), "%s", newReg);
+                                snprintf(rec.fullName, sizeof(rec.fullName), "%s", newName);
                                 rec.formLevel = newForm;
                                 rec.mathScore = newMath;
                                 rec.physicsScore = newPhys;
