@@ -7,6 +7,8 @@
 #include "sqlite3.h"
 #include "buttons.h"
 #pragma comment(lib, "sqlite3.lib")
+
+
 /*==============================================================================
                         CONTROL VARS
 ==============================================================================*/
@@ -108,8 +110,3 @@ static inline void SetMusic(enum songs currentsong) {
 	UpdateMusicStream(bgm);
 
 }
-
-
-typedef struct {
-
-};

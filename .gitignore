@@ -1,0 +1,18 @@
+# Visual Studio files
+.vs/
+x64/
+*.suo
+*.user
+*.aps
+projectmine.slnx
+
+# Local databases and temp files
+*.db
+*.db-journal
+temp.bin
+
+# Compiled binaries and libraries
+*.exe
+*.dll
+*.lib
+*.obj

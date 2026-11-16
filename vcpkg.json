@@ -1,0 +1,12 @@
+{
+  "dependencies": [
+    {
+      "name": "imgui",
+      "default-features": false,
+      "features": [
+        "opengl3-binding",
+        "win32-binding"
+      ]
+    }
+  ]
+}
