@@ -108,3 +108,8 @@ static inline void SetMusic(enum songs currentsong) {
 	UpdateMusicStream(bgm);
 
 }
+
+
+typedef struct {
+
+};
