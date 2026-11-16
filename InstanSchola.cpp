@@ -296,6 +296,9 @@ static void UpdateDrawFrame(void* arg) {
 }
 
 int main() {
+#if defined(PLATFORM_WEB)
+    SetConfigFlags(FLAG_w)
+
     SetConfigFlags(FLAG_WINDOW_RESIZABLE | FLAG_MSAA_4X_HINT | FLAG_VSYNC_HINT);
     InitWindow(1440, 860, "InstanSchola ERP - Dear ImGui v1.92 Showcase");
 
